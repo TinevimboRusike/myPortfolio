@@ -1,0 +1,101 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.4;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.about, .projects {
+  padding: 20px;
+  margin: 20px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #413e40;
+  color:white;
+}
+
+.profile-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.video-header, .video-footer {
+  position: relative;
+  overflow: hidden;
+  color: white;
+  text-align: center;
+}
+
+.bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  z-index: 0;
+  opacity: 0.4;
+}
+
+.header-content, .footer-content {
+  position: relative;
+  z-index: 1;
+  padding: 20px;
+}
+
+.profile-pic {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border: 2px solid white;
+}
+
+.container {
+  max-width: 900px;        /* max width of content */
+  margin-left: 60px;       /* pushes all content 60px from the left */
+  margin-right: 20px;      /* optional right margin */
+  padding: 0 20px;         /* optional horizontal padding inside container */
+  box-sizing: border-box;  /* includes padding inside width */
+}
+
+.cv-download {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px 40px 0 40px; /* Top and horizontal padding */
+}
+
+.cv-button {
+  background-color: #0c0c0c;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.cv-button:hover {
+  background-color: #0056b3;
+}
+

@@ -114,7 +114,6 @@ html {
     width: 100px;
   }
   .navbar {
-    flex-direction: column; /* stack vertically on mobile */
     gap: 15px;
     padding: 20px;
     top: 50%;
@@ -143,5 +142,69 @@ section {
   border-radius: 10px;
   background-color: rgba(85, 84, 84, 0.3); /* optional: subtle background for readability */
 }
+
+.certifications {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.certifications h2 {
+  margin-bottom: 20px;
+}
+
+.certifications ul {
+  line-height: 2.5;
+}
+.work-experience p {
+  line-height: 2;
+}
+
+.projects {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.project-card {
+  display: inline-block;
+  margin: 20px;
+  width: 300px;
+  border-radius: 12px;
+  overflow: hidden;
+  background: none;
+  color: white;
+  text-align: left;
+}
+
+.project-card a {
+  display: block;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.project-card a:hover {
+  transform: scale(1.03);
+}
+
+.project-image {
+  width: 300px;         /* fixed width */
+  height: 200px;        /* fixed height */
+  object-fit: cover;    /* crop and fill nicely */
+  display: block;
+  border-radius: 12px;
+  filter: brightness(85%);
+  transition: filter 0.3s ease;
+}
+
+.project-card a:hover .project-image {
+  filter: brightness(70%);
+}
+
+.project-card p {
+  margin-top: 12px;
+  font-size: 16px;
+  color: white;
+}
+
 
 

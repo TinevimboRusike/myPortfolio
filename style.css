@@ -121,10 +121,6 @@ html {
     transform: translate(-50%, -50%);
   }
 
-  .nav-links {
-    flex-direction: column;
-    align-items: center;
-  }
 }
 
 section h2 {
